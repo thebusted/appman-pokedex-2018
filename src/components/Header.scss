@@ -1,0 +1,8 @@
+@import './src/variables';
+.Header {
+  font-size: 60px;
+  height: $headerSize;
+  line-height: $headerSize;
+  margin: 0;
+  text-align: center;
+}

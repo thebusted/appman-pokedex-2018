@@ -1,0 +1,27 @@
+@import './src/variables';
+.AddToDex {
+  background-color: $bottomBarBackground;
+  bottom: 0;
+  height: $bottomBarHeight;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: 2;
+  button {
+    background: none;
+    background-color: $bottomBarBackground;
+    border: 0;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    font-family: $fontAtma;
+    font-size: $bottomBarSize;
+    height: $bottomBarSize;
+    line-height: $bottomBarSize;
+    left: calc(50% - #{$bottomBarSize / 2});
+    outline: none;
+    position: absolute;
+    top: -($bottomBarSize / 2);
+    width: $bottomBarSize;
+  }
+}

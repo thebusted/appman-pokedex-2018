@@ -1,0 +1,20 @@
+@import './src/variables';
+.Modal {
+  background-color: $modalOutside;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 9;
+  .Content {
+    background-color: $modalContentBackground;
+    border-radius: 5px;
+    bottom: 30px;
+    box-shadow: 2px 2px 1px $modalContentBoxShadow;
+    left: 30px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+  }
+}
